@@ -15,5 +15,7 @@
 
   <platform name="android">
     <source-file src="lib/libs/android-support-v4.jar" target-dir="libs" />
+    <source-file src="lib/libs/android-support-v7-appcompat.jar" target-dir="libs" />
+    <source-file src="lib/libs/android-support-v7-mediarouter.jar" target-dir="libs" />
   </platform>
 </plugin>
