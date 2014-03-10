@@ -6,16 +6,13 @@
 -->
 <plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
     id="com.google.androidsupport"
-    version="4.0.0">
+    version="4.0.1">
   <engines>
     <engine name="cordova" version=">=3.0.0" />
   </engines>
 
   <name>Android Support</name>
-
-  <platform name="android">
-    <source-file src="lib/libs/android-support-v4.jar" target-dir="libs" />
-    <source-file src="lib/libs/android-support-v7-appcompat.jar" target-dir="libs" />
-    <source-file src="lib/libs/android-support-v7-mediarouter.jar" target-dir="libs" />
-  </platform>
+  <dependency id="android.support.v4"></dependency>
+  <dependency id="android.support.v7-mediarouter"></dependency>
+  <dependency id="android.support.v7-appcompat"></dependency>
 </plugin>
