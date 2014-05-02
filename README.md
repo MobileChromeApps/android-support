@@ -1,3 +1,7 @@
-This is a Cordova plugin that adds a few Android support libraries to your project.
-It's probably better to directly depend on the specific support library plugins that you require rather than this one.
+### This repository is deprecated!
 
+Please use the following plugins for Android support:
+
+* [android support v4](https://github.com/MobileChromeApps/cordova-plugin-android-support-v4)
+* [android support v7 - media router](https://github.com/MobileChromeApps/cordova-plugin-android-support-v7-mediarouter)
+* [android support v7 - app compat](https://github.com/MobileChromeApps/cordova-plugin-android-support-v7-appcompat)
